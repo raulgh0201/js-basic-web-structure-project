@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('../img/hojas.jpg');
+    background-attachment: fixed;
+}
+
+#theme-changer{
+    position: fixed;
+    width: 3%;
+    height: 120px;
+    top:40%;
+    background-color: rgba(51, 51, 51, 0.50);
+}
+
+#theme-changer div {
+    width: 60%;
+    height: 25%;
+    margin: 7px auto;
+    cursor: pointer;
+    
+}
+
+#theme-changer img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#theme-blue{
+   
+}
+
+#theme-red{
+    
+}
+#global{
+    margin:auto;
+    margin-top: 30px;
+    width: 70%;
+    background-color: white;
+    border: 2px solid gray;
+    padding: 30px;
+    height: 2000px;
+}
+/*Header*/
+#logo{
+    width:40%;
+    height: 70px;
+    font-family: Verdana,Arial;
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 10px;
+    color:white;
+    background-color: #235E3D;
+    text-transform: uppercase;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+/*Menu style*/
+#menu{
+    font-family: Helvetica,Arial;
+    background: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+}
+
+#menu ul{
+
+    line-height: 46px;
+    list-style: none;
+    
+
+}
+
+#menu li{
+    padding-top: 20px;
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+    cursor: pointer;
+
+}
+
+#menu li:hover{
+
+    background-color: #235E3D;
+}
+
+
+#menu a{
+
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+/*Slider*/
+.bx-wrapper .bx-viewport {
+    height: 450px !important;
+}
+
+
+/*Blog style*/
+#blog{
+    display: block;
+    float: left;
+    width: 60%;
+}
+
+#blog h3{
+    font-style: Verdana,Arial;
+    font-size: 45px;
+}
+
+#blog .date{
+    display:block;
+    margin-bottom: 10px;
+    color:gray;
+}
+
+#blog .article-content{
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+
+#blog .button-more{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    width: 75px;
+    margin-top: 10px;
+    color:white;
+    padding: 15px;
+    background-color: #235E3D;
+    margin-bottom: 30px;
+}
+/* About us accordion */
+#accordion{
+    float: left;
+    height: 50%;
+    width: 50%;
+    margin-top: 40px;
+}
+
+/* Clock */
+
+#box{
+	width: 60%;
+	float: left;
+	margin-top:70px;
+}
+#clock{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Helvetica, Arial;
+	color: #333;
+	border: 5px dashed #333;
+	width: 30%;
+	padding: 30px;
+	margin: 0px auto;
+}
+/* contact form */
+
+#contact{
+    float:left;
+    margin-top: 50px;
+    font-family: Helvetica, Arial;
+}
+
+#contact label {
+    display: block;
+    margin-top: 7px;     
+}
+
+.form-error{
+    /* float: right; */
+     font-size: 11px;
+     background: red;
+     color: white;
+     padding: 10px;
+     width: 100%;	
+ }
+/*sidebar*/
+ 
+#about{
+    margin-bottom: 20px;
+}
+#sidebar{
+    font-family: Helvetica,Arial;
+    width: 20%;
+    margin-top: 50px;
+    
+    display: block;
+    float: right;
+}
+
+#sidebar h4{
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    width: 100%;
+    background: url('../img/lines.png') repeat;
+}
+
+#sidebar span{
+    background: white;
+    padding: 5px;
+}
+
+#sidebar img{
+    width: 100%;
+}
+
+
+#login input{
+	padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+#login input[value='Login']{
+    cursor: pointer;
+}
+
+footer{
+    font-family: Helvetica,Arial;
+    color: white;
+    width: 68%;
+    height: 47px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    margin-top: 50px;
+    line-height: 47px;
+}
+#go-top{
+    float: right;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+
+

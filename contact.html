@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!--All CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link id='css-theme-changer' rel="stylesheet" href="css/theme-green.css">
+
+    <!--All Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js" ></script>
+
+   
+
+
+  
+</head>
+<body>
+
+    <div id='theme-changer'>
+        <div id='theme-green'>
+            <img src="img/Green Gallery App Icon.jfif" alt="">
+        </div>
+        <div id='theme-red'>
+            <img src="img/Photos _ Gallery app icon.jfif" alt="">
+        </div>
+        <div id='theme-blue'>
+            <img src="img/Sky Blue Gallery App Icon.jfif" alt="">
+        </div>     
+    </div>
+
+    <section id="global">
+        <header>
+            <div id='logo'>
+                <h1>Practicing JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <navbar>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Calculator</a></li>
+                    <li><a href="clock.html">Clock</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </navbar>
+        </header>
+
+    
+        </script>
+        <section id="content">
+            <div id="contact">
+                <H2>CONTACT US</H2>
+                 <form method='POST'>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" data-validation="alphanumeric">
+
+                    <label for="lastname">LastName</label>
+                    <input type="text" name="surname" data-validation="alphanumeric">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" data-validation="email">
+
+                    <label for="message">Write your message</label>
+                    <input type="text" name="message">
+
+                    <input type="submit" value="Send Data">
+                 </form>              
+            </div>
+               <aside id='sidebar'>
+                <div id="about">
+                    <h4><span>Who I Am?</span></h4>
+                    <img src="img/caracol.jpg" alt="snail">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium sint eligendi perspiciatis, vel ullam aperiam id ratione officiis? Qui perspiciatis aperiam culpa dolor aliquam? Voluptatibus quos tenetur officia deleniti commodi?</p>
+                </div>
+                <div id="login">
+                    <h4><span>Identify Yourself</span></h4><br>
+                    <form action="">
+                        <label for="username" >Username</label>
+                            <input type="text" id='form-name'>
+                        <label for="password">Password</label>
+                            <input type="text" id='form-pass'>
+                            <input type="submit" value="Login">
+                    </form>
+                </div>
+            </aside>
+
+        </section>
+
+    </section>
+    <footer>
+        Project JS Raul Garcia &copy
+        <a id='go-top'>Go Top</a>
+    </footer>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
